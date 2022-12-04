@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "favicons": "^6.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coder1x/fox-favicon.git"
@@ -17,7 +20,10 @@
     "head",
     "html"
   ],
-  "author": "coder1",
+  "author": {
+    "name": "coder1",
+    "url": "https://frontendx.ru"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/coder1x/fox-favicon/issues"
