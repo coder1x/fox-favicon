@@ -1,0 +1,26 @@
+{
+  "name": "fox-favicon",
+  "version": "1.0.0",
+  "description": "Webpack plugin to generate favicons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coder1x/fox-favicon.git"
+  },
+  "keywords": [
+    "webpack",
+    "favicon",
+    "favicons",
+    "head",
+    "html"
+  ],
+  "author": "coder1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coder1x/fox-favicon/issues"
+  },
+  "homepage": "https://github.com/coder1x/fox-favicon#readme"
+}
