@@ -8,11 +8,11 @@ Webpack plugin to generate favicons
   ```
 
 ## Сonnection:
-  ```
+  ```javascript
 const FoxFavicon = require('fox-favicon');
   ```
 ## usage:
-  ```
+  ```javascript
 new FoxFavicon({
   src: 'src/assets/images/icon/favicon.png',
   path: 'assets/favicons/',
@@ -89,5 +89,5 @@ new FoxFavicon({
 | coast | true | boolean, object, array | Create Opera Coast icon. `boolean` or `{ offset, background, mask, overlayGlow, overlayShadow }` or an array of sources |
 | favicons | true | boolean, object, array | Create regular favicons. `boolean` or `{ offset, background, mask, overlayGlow, overlayShadow }` or an array of sources |
 | firefox | true | boolean, object, array | Create Firefox OS icons. `boolean` or `{ offset, background, mask, overlayGlow, overlayShadow }` or an array of sources |
-| windows | true | boolean, object, array | Create Windows 8 tile icons. `boolean` or `{ offset, background, mask, overlayGlow, overlayShadow }` or an array of sources |
+| windows | true | boolean, object, array | Create Windows tile icons. `boolean` or `{ offset, background, mask, overlayGlow, overlayShadow }` or an array of sources |
 | yandex | true | boolean, object, array | Create Yandex browser icon. `boolean` or `{ offset, background, mask, overlayGlow, overlayShadow }` or an array of sources |
